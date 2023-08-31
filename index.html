@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Página de Exemplo com Menu e Notificações</title>
 </head>
 
@@ -15,15 +16,20 @@
             <li>Menu Item 1</li>
             <li>Menu Item 2</li>
             <li>Menu Item 3</li>
+            <button id="notificationButton">Show Notifications</button>
         </ul>
     </div>
-    <div id="content">
-        <h1>Main Content Area</h1>
+    <div id="content" class="font-inter">
+
+        <h1 class="text-3xl font-bold underline">
+            Hello world!
+        </h1>
         <p>This is the main content of the page.</p>
-        <button id="notificationButton">Show Notifications</button>
+        <p class="font-poppins">This is the main content of the page.</p>
+        <p class="font-hachi">This is the main content of the page.</p>
 
     </div>
-    <div id="notifications">
+    <div id="notifications" class="bg-gray-300 font-hachi">
         <h2>Notifications</h2>
         <p>Notification 1</p>
         <p>Notification 2</p>
